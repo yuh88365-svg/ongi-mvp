@@ -1,0 +1,22 @@
+# Python 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 백업 압축 파일 및 로컬 실행 데이터 (개인 기록 보호)
+*.zip
+ongi_logs.json
+ongi_plaza.json
+
+# Streamlit 비밀 키 및 환경 변수
+.streamlit/secrets.toml
+.env
+
+# IDE 및 OS 불필요 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
